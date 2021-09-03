@@ -1,4 +1,4 @@
-defmodule Mastery.Boundary.QuzValidator do
+defmodule Mastery.Boundary.QuizValidator do
   import Mastery.Boundary.Validator
 
   def errors(fields) when is_map(fields) do

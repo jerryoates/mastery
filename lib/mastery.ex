@@ -1,6 +1,6 @@
 defmodule Mastery do
   alias Mastery.Boundary.{QuizSession, QuizManager}
-  alias Mastery.Boundary.{TemplateValidator, QuzValidator}
+  alias Mastery.Boundary.{TemplateValidator, QuizValidator}
   alias Mastery.Core.Quiz
 
   def start_quiz_manager() do
